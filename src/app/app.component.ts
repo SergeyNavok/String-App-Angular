@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'String APP';
+
+  public myWord: string[] = ['Вася', 'домой', 'шел', 'Пупкин', 'бежал', 'за пивком', 'в школу'];
+
 }
