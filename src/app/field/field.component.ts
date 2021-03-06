@@ -12,6 +12,6 @@ export class FieldComponent {
   @Output() public selectWord = new EventEmitter<string>();
 
   public selectValue(): void {
-    this.selectWord.next(this.MyWord);
+    this.selectWord.next(this.myWord);
   }
 }
