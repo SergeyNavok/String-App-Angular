@@ -10,4 +10,9 @@ export class AppComponent {
 
   public myWord: string[] = ['Вася', 'домой', 'шел', 'Пупкин', 'бежал', 'за пивком', 'в школу'];
 
+  public selectValue: string;
+
+  public onSelect(myWord: string): void {
+    this.selectValue = myWord;
+  }
 }
