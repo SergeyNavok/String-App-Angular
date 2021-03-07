@@ -12,7 +12,7 @@ export class AppComponent {
 
   public selectValue: string;
 
-  public onSelect(myWord: string): void {
-    this.selectValue = myWord;
+  public onSelect(value: string): void {
+    this.selectValue = value;
   }
 }
