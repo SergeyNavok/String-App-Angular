@@ -1,12 +1,14 @@
 .container {
   width: 150px;
-  height: 100px;
+  height: 60px;
   background-color: beige;
   border-radius: 10px;
   margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &__text {
     font-size: 30px;
-    text-align: center;
   }
 }
