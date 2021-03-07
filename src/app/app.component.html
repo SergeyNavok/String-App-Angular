@@ -1,1 +1,2 @@
-<app-field></app-field>
+<h1 *ngIf="selectValue">Нажато на {{ selectValue }}</h1>
+<app-field *ngFor="let item of myWord" [value] = "item" (selectEvent)="onSelect($event)"></app-field>
