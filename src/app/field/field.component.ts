@@ -9,9 +9,9 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 export class FieldComponent {
   @Input() public value: string;
-  @Output() public selectWord = new EventEmitter<string>();
+  @Output() public selectEvent = new EventEmitter<string>();
 
   public selectValue(): void {
-    this.selectWord.next(this.value);
+    this.selectEvent.next(this.value);
   }
 }
